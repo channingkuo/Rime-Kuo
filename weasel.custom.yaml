@@ -7,3 +7,6 @@ customization:
 patch:
   "style/color_scheme": dota_2
   "style/horizontal": true
+  "style/layout/candidate_spacing": 15   # 候选字之间的间距（像素）
+  "style/layout/hilite_padding": 8       # 高亮候选项的内边距（像素）
+  "style/layout/hilite_spacing": 8       # 高亮候选项额外的左右间距（像素）

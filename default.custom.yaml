@@ -20,3 +20,8 @@ patch:
     bindings:
       - {accept: bracketleft, send: Page_Up, when: has_menu}
       - {accept: bracketright, send: Page_Down, when: has_menu}
+  
+  switcher:
+    hotkeys:
+      - "Control+Shift+grave"
+      - F4

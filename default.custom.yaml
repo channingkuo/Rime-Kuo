@@ -18,3 +18,5 @@ patch:
   key_binder:
     bindings:
       - {accept: "Control+space", toggle: ascii_mode, when: always}
+      - {accept: bracketleft, send: Page_Up, when: has_menu}
+      - {accept: bracketright, send: Page_Down, when: has_menu}

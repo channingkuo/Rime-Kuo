@@ -1,0 +1,20 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Nov 20 12:03:12 2025"
+  rime_version: 1.13.1
+patch:
+  schema_list:
+    - {schema: double_pinyin}
+  
+  ascii_composer:
+    switch_key:
+      Shift_L: noop
+      Shift_R: noop
+      Control_L: noop
+      Control_R: noop
+  
+  key_binder:
+    bindings:
+      - {accept: "Control+space", toggle: ascii_mode, when: always}

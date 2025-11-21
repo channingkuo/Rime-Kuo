@@ -7,6 +7,9 @@ customization:
 patch:
   schema_list:
     - {schema: double_pinyin}
+
+  menu:
+    page_size: 9
   
   ascii_composer:
     switch_key:

@@ -11,4 +11,9 @@ patch:
   "style/layout/hilite_padding": 8       # 高亮候选项的内边距（像素）
   "style/layout/hilite_spacing": 8       # 高亮候选项额外的左右间距（像素）
   
+  # 状态指示器设置
+  # show_notifications: false              # 关闭状态通知，不显示中英文切换指示器
+  # 如果想保留指示器但让它跟随光标，改用下面这行（注释掉上面一行）：
+  # "style/ascii_tip_follow_cursor": true  # 指示器跟随光标
+  
   global_ascii: true  # 全局默认英文状态
